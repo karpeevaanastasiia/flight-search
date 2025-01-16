@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url(../assets/fonts/Arial-Regular.ttf);
+    font-weight: normal; 
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Arial";
+    background-color:lightskyblue;
+}
+
+.header-container {
+    max-width: 1920px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(108, 165, 200);
+}
+
+h1 {
+    color: #F1CDB3;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.main-section {
+    height: 100vh;
+    display: flex;
+}
+
+.filter {
+    flex: 1;
+}
+
+.filter-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.filter-list {
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    margin-bottom: 10px;
+    background:white;
+}
+
+.filter-item {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.select {
+    flex: 2;
+}
+
+.button-box {
+    display: flex;
+}
+
+.select-button-item {
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+    background-color:honeydew;
+    border: none;
+}
+
+.select-button-item:hover {
+    background-color:white;
+}
+
+.button-faster {
+    border-left: 2px solid black;
+}

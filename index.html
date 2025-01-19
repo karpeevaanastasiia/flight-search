@@ -18,31 +18,31 @@
                 <ul class="filter-list">
                     <li class="filter-item">
                         <label>
-                        <input type="checkbox" name="option0" value="0">
+                        <input type="radio" name="option0" value="0" checked>
                         Все
                         </label>
                     </li>
                     <li class="filter-item">
                     <label>
-                        <input type="checkbox" name="option1" value="1">
+                        <input type="radio" name="option1" value="1">
                         Без пересадок
                     </label>
                     </li>
                     <li class="filter-item">
                     <label>
-                        <input type="checkbox" name="option2" value="2">
+                        <input type="radio" name="option2" value="2">
                         1 пересадка
                     </label>
                     </li>
                     <li class="filter-item">
                     <label>
-                        <input type="checkbox" name="option3" value="3">
+                        <input type="radio" name="option3" value="3">
                         2 пересадки
                     </label>
                     </li>
                     <li class="filter-item">
                         <label>
-                        <input type="checkbox" name="option4" value="4">
+                        <input type="radio" name="option4" value="4">
                             Больше 2 пересадок
                         </label>
                     </li>
@@ -55,48 +55,50 @@
                 <button class="select-button-item button-faster">Самый быстрый</button>
             </div>
              <!-- Model of ticket -->
-              <ul class="ticket-list-none">
-                     <li class="ticket-item">
-                        <div class="ticket-container">
+              <!-- <ul class="ticket-list-none">
+                     <li class="ticket-item"> -->
+                        <div class="ticket-container" id="ticket-container">
+                            <!-- <div class="ticket-item">
                                 <div class="ticket-header">
-                                    <h2 class="ticket-price"><!-- 13 400 P --></h2>
-                                    <img src="#" alt="Airline">
+                                    <h2 class="ticket-price">price</h2>
+                                    <p class="ticket-airline">airline</p>
                                 </div>
                                 <div class="ticket-information">
                                     <div class="ticket-start-finish">
                                         <div class="ticket-text-box">
-                                            <h3 class="ticket-information_title">MOW-HKT</h3>
-                                            <p class="ticket-information_text">10:45-08:00</p>
+                                            <h3 class="ticket-information_title">origin-destination</h3>
+                                            <p class="ticket-information_text">departure_at</p>
                                         </div>
                                         <div class="ticket-text-box">
-                                            <h3 class="ticket-information_title">MOW-HKT</h3>
-                                            <p class="ticket-information_text">11:20-00:50</p>
+                                            <h3 class="ticket-information_title">destination-origin</h3>
+                                            <p class="ticket-information_text">return_at</p>
                                         </div>
                                     </div>
-                                    <div class="ticket-time">
+                                    <div class="ticket-flight-number">
                                         <div class="ticket-text-box">
-                                            <h3 class="ticket-information_title">В ПУТИ</h3>
-                                            <p class="ticket-information_text">21ч 15м</p>
+                                            <h3 class="ticket-information_title">НОМЕР РЕЙСА</h3>
+                                            <p class="ticket-information_text">flight_number</p>
                                         </div>
                                         <div class="ticket-text-box">
-                                            <h3 class="ticket-information_title">В ПУТИ</h3>
-                                            <p class="ticket-information_text">13ч 30м</p>
+                                            <h3 class="ticket-information_title">НОМЕР РЕЙСА</h3>
+                                            <p class="ticket-information_text">flight_number</p>
                                         </div>
                                     </div>
                                     <div class="ticket-transfer">
                                         <div class="ticket-text-box">
-                                            <h3 class="ticket-information_title">2 ПЕРЕСАДКИ</h3>
-                                            <p class="ticket-information_text">HKG, JNB</p>
+                                            <h3 class="ticket-information_title">ПЕРЕСАДКИ</h3>
+                                            <p class="ticket-information_text">transfers</p>
                                         </div>
                                         <div class="ticket-text-box">
-                                            <h3 class="ticket-information_title">1 ПЕРЕСАДКА</h3>
-                                            <p class="ticket-information_text">HKG</p>
+                                            <h3 class="ticket-information_title">ПЕРЕСАДКИ</h3>
+                                            <p class="ticket-information_text">transfers</p>
                                         </div>
                                     </div>
                                 </div>
+                            </div> -->
                         </div>
-                </li>
-
+                <!-- </li>
+ -->
                <!--  <li class="ticket-item">
                     <div class="ticket-container">
                             <div class="ticket-header">
@@ -137,7 +139,7 @@
                             </div>
                     </div>
                 </li> -->
-            </ul>
+           <!--  </ul> -->
         </div>
     </section>
     <script src="script.js"></script>
